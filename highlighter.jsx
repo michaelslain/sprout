@@ -1,13 +1,12 @@
 import React, { Fragment } from 'react'
 import Keywords from './keywords'
 import KeywordsWithSpaces from './keywordsWithSpaces'
-import tokenize from './tokenize'
 
 function isNumber(text) {
     return !Number.isNaN(Number(text))
 }
 
-export default function highlighter(rawCode) {
+module.exports = rawCode => {
     let code = rawCode
     let tokens = []
 
