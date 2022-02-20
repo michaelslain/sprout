@@ -8,7 +8,7 @@ import operators from './operators.js'
 import parse from './parse.js'
 import tokenize from './tokenize.js'
 
-export {
+export default {
     format,
     interpreter,
     keywords,

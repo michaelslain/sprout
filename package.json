@@ -1,6 +1,6 @@
 {
     "name": "bean-sprout",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Simple programming language that is completely readable by any English speaker.",
     "main": "index.js",
     "author": "m00chle",
