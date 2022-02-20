@@ -1,4 +1,4 @@
-const { Keywords } = require('./keywords.js')
+const Keywords = require('./keywords.js')
 
 module.exports = rawCode => {
     if (rawCode.length === 0) return []
