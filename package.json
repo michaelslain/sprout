@@ -1,5 +1,5 @@
 {
-    "name": "sprout",
+    "name": "bean-sprout",
     "version": "1.0.0",
     "description": "Simple programming language that is completely readable by any English speaker.",
     "main": "index.js",
@@ -9,9 +9,5 @@
     "scripts": {
         "dev": "nodemon test.js"
     },
-    "private": false,
-    "devDependencies": {
-        "nodemon": "^2.0.15",
-        "react": "^17.0.2"
-    }
+    "private": false
 }
