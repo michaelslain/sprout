@@ -1,6 +1,6 @@
 {
     "name": "bean-sprout",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Simple programming language that is completely readable by any English speaker.",
     "main": "index.js",
     "author": "m00chle",
@@ -9,5 +9,15 @@
     "scripts": {
         "dev": "nodemon test.js"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/michaelslain/sprout"
+    },
+    "keywords": [
+        "language",
+        "coding",
+        "react",
+        "highlight"
+    ],
     "private": false
 }
