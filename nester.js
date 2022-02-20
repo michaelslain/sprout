@@ -1,6 +1,6 @@
-import Keywords from './keywords.js'
+const { Keywords } = require('./keywords.js')
 
-export default function nester(tokens, terminationKeywordIndex, messenger) {
+module.exports = (tokens, terminationKeywordIndex, messenger) => {
     let nextCommandIndex
     let amountOfFunctionKeywords = 1
     let amountofFunctionTerminationKeywords = 0

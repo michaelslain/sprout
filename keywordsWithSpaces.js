@@ -1,4 +1,4 @@
-export default {
+module.exports = {
     STRING_KY: `"`,
     TERMINATION_KY: '.',
     DECLARATION_KY: 'let',

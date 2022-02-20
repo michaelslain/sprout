@@ -1,9 +1,9 @@
-import format from './format.js'
-import tokenize from './tokenize.js'
-import lex from './lex.js'
-import parse from './parse.js'
+const format = require('./format.js')
+const tokenize = require('./tokenize.js')
+const lex = require('./lex.js')
+const parse = require('./parse.js')
 
-export default (rawCode, messenger) => {
+module.exports = (rawCode, messenger) => {
     parse(lex(tokenize(format(rawCode)), messenger), messenger)
     messenger('Done.')
 }

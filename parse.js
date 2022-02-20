@@ -107,7 +107,7 @@ class Program {
     }
 }
 
-export default function parse(tree, messenger) {
+module.exports = (tree, messenger) => {
     try {
         new Program(tree, messenger)
     } catch (err) {

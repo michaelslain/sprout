@@ -1,8 +1,8 @@
-import Keywords from './keywords.js'
-import { getOperatorType, operatorValues } from './operators.js'
-import nester from './nester.js'
+const Keywords = require('./keywords.js')
+const nester = require('./nester.js')
+const { getOperatorType, operatorValues } = require('./operators.js')
 
-export default function lex(tokens = [], messenger) {
+module.exports = (tokens = [], messenger) => {
     if (tokens.length === 0) return []
 
     const token = tokens[0]

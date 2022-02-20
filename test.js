@@ -1,4 +1,4 @@
-import interpreter from './interpreter.js'
+const interpreter = require('./interpreter.js')
 
 function messenger(message) {
     console.log(message)

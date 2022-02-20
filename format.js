@@ -1,6 +1,6 @@
-import Keywords from './keywords.js'
+const Keywords = require('./keywords.js')
 
-export default function format(rawCode) {
+module.exports = rawCode => {
     const { STRING_KY, TERMINATION_KY, FUNCTION_KY } = Keywords
 
     // adds periods at the end of each line

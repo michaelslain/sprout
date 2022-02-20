@@ -1,6 +1,6 @@
-import Keywords from './keywords.js'
+const { Keywords } = require('./keywords.js')
 
-export default function tokenize(rawCode) {
+module.exports = rawCode => {
     if (rawCode.length === 0) return []
 
     let token = ''
