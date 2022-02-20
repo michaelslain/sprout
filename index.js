@@ -8,5 +8,5 @@ module.exports = {
     operators: require('./operators.js'),
     parse: require('./parse.js'),
     tokenize: require('./tokenize.js'),
-    highlighter: require('./highlighter.jsx'),
+    highlighter: require('./highlighter.js'),
 }
