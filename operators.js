@@ -1,6 +1,6 @@
 const Keywords = require('./keywords.js')
 
-exports.operatorPairs = {
+const operatorPairs = {
     and: Keywords.AND_OPERATOR,
     or: Keywords.OR_OPERATOR,
     equal: Keywords.EQUAL_OPERATOR,
@@ -14,11 +14,19 @@ exports.operatorPairs = {
     divide: Keywords.DIVISION_OPERATOR,
 }
 
-exports.operatorEntries = Object.entries(operatorPairs)
+const operatorEntries = Object.entries(operatorPairs)
 
-exports.operatorKeys = Object.keys(operatorPairs)
+const operatorKeys = Object.keys(operatorPairs)
 
-exports.operatorValues = Object.values(operatorPairs)
+const operatorValues = Object.values(operatorPairs)
 
-exports.getOperatorType = operatorValue =>
+const getOperatorType = operatorValue =>
     operatorEntries.find(entry => operatorValue === entry[1])[0]
+
+module.exports = {
+    operatorPairs,
+    operatorEntries,
+    operatorKeys,
+    operatorValues,
+    getOperatorType,
+}
