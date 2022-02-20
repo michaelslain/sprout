@@ -1,6 +1,6 @@
 const Keywords = require('./keywords.js')
 
-module.exports = {
+exports.default = {
     operatorPairs: {
         and: Keywords.AND_OPERATOR,
         or: Keywords.OR_OPERATOR,
