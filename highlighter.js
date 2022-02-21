@@ -1,6 +1,6 @@
-import React, { Fragment } from 'react'
-import Keywords from './keywords'
-import KeywordsWithSpaces from './keywordsWithSpaces'
+const { Fragment } = require('react')
+const Keywords = require('./keywords.js')
+const KeywordsWithSpaces = require('./keywordsWithSpaces')
 
 function isNumber(text) {
     return !Number.isNaN(Number(text))
